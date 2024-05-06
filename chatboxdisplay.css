@@ -1,0 +1,60 @@
+.chatdisplay {
+    height: 310px;
+    padding: 5px;
+    display: block;
+    overflow-y: scroll;
+}
+.chatone,.chattwo,.fullchatone{
+    padding: 2px 5px 2px 5px;
+    font-size:10px;
+    min-width: fit-content;
+    border-radius: 15px;
+}
+.fullchatone,.chattwo{
+    margin: 10px;
+    max-width: 300px;
+}
+.chatone{
+    float: left;
+    background-color:white;
+}
+.fullchatone{
+    max-width: 350px;
+    display: flex;
+}
+
+.fullchatone img{
+    display: block;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    border:1px solid dodgerblue;
+    margin-right: 5px;
+}
+.chattwo{
+    float: right;
+    background-color:burlywood;
+}
+.suggest{
+    width: auto;
+    display:inline-flex;
+    height: 25px;
+    overflow-x: scroll;
+    padding-left: 10px;
+}
+.suggest::-webkit-scrollbar {
+    display: none;
+}
+.suggest_option{
+    margin: 1px 3px;
+    position: relative;
+    border-radius: 20px;
+    background-color: bisque;
+    border:1px solid dodgerblue;
+    display:block;
+    height: fit-content;
+}
+.suggest_option:hover{
+    background-color: dodgerblue;
+    cursor: pointer;
+}

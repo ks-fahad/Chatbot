@@ -1,0 +1,63 @@
+.container {
+    border: 0;
+    border-radius: 25px;
+    background-color: dodgerblue;
+}
+
+.subcontainer {
+    background-color: white;
+    width: 100%;
+    margin: 10px;
+    border-radius: 25px;
+    /*background-image: url(image/wallpaper.jpg);*/
+}
+
+.project_gif,
+.subcontainer {
+    border: 1px solid none;
+    box-shadow: none;
+}
+
+
+.writemsg {
+    background-color: white;
+    height: fit-content;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.container,
+.writemsg {
+    border: 1px solid black;
+}
+
+.writemsg input {
+    font: normal bold large Georgia, serif;
+    margin: 2px;
+    border-radius: 10px;
+    border-width: 0;
+    width: 45%;
+    padding: 10px;
+}
+
+.writemsg form {
+    width: 100%;
+    display: flex;
+}
+
+.writemsg input[type=text] {
+    width:100%;
+    background-color:bisque;
+}
+
+.writemsg input[type=button] {
+    width: fit-content;
+    background-color: darkorange;
+    color: white;
+    float: right;
+    cursor: pointer;
+}
+
+.writemsg input[type=button]:hover {
+    background-color: green;
+}

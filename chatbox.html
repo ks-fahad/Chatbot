@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="chatbox.css">
+    <link rel="stylesheet" href="chatboxdisplay.css">
+
+    <title>Document</title>
+</head>
+
+<body class="screen" onload="firstmsg()">
+    <div id="datetime">
+        <script src="index.js"></script>
+    </div>
+    <div class="container">
+        <div class="project_gif">
+            <img src="image/chatbot-marketing.gif" alt="bots">
+            <div class="figure">বাংলা <span style="color: gold;">বাক্যালাপ</span> </div>
+        </div>
+        <div class="subcontainer">
+            <div class="project_name">BengBots<br>
+                <div class="tab"><marquee behavior="" direction="">Talk to me in Bengali...</marquee> </div>
+            </div>
+            <div class="chatdisplay" id="msgdisplay">
+            </div>
+            <div class="suggest" onload="suggestions()">
+                <button class="suggest_option" id="suggest_1" onclick="suggest1()">আপনি কে</button>
+                <button class="suggest_option" id="suggest_2" onclick="suggest2()">আপনি কি করতে পারেন</button>
+                <button class="suggest_option" id="suggest_3" onclick="suggest3()">আপনি আমাকে একটি কৌতুক বলতে পারেন</button>
+                <button class="suggest_option" id="suggest_4" onclick="suggest4()"> আপনার বস কে</button> 
+            </div>
+            <script src="chatbox.js"></script> 
+            <div class="writemsg">
+                <form action="" method="post">
+                    <input type="text" name="" id="userbox" placeholder="Enter your Massage">
+                    <input type="button" value="Enter" onclick="messages()">
+                    <script src="chatbox.js"></script>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
